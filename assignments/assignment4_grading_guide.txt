@@ -1,0 +1,133 @@
+You're going to fill out a rubric for every student.
+Start by looking at their code file. You should be able to copy
+and past their name into their rubric.
+
+####### Style Guide ########
+
+1. Lines less than 80 characters:
+    1 or 2 lines over: -1 point
+    3 to 5 lines over: -2 points
+    5 to 10 lines over: -3 points
+    11+ lines over: -4 points
+
+2. Variables have meaningfule names:
+    Pretty much everyone gets full points for this.
+
+3. Every block indented:
+    1 or 2 lines not indented: full credit
+    Some indenting but it's not consistent: -2 points
+    Nothing indented: -3 points
+
+4. Comments for complicated actions:
+    More than 5 comments in their code: full credit
+    2 or 4 comments: -1 point
+    No comments after authorship comment: -2 points
+
+5. File name is...
+    OK, I keep forgetting to update this entry in the rubric and that's my fault.
+    So we will be accepting [Author's Last Name]_assignment and then any number.
+    Any other name: -1 or -2 depending on how close it is
+
+6. Name and Date Comment:
+    Name not included: -1 point
+    Data not included: -1 point
+
+
+
+######## Code Refactor ########
+
+Helper functions are allowed.
+This section is about them writing function, not about the function
+working correctly. Correctness will be covered by Test Cases.
+
+1. Design implemented as 1 function
+    Function implemented partially: -1 point
+    Functions missing: -2 points
+    
+2. Test a Ship Design implemented as 2 functions
+    Function implemented partially: -2 points each
+    Still only one function: -5 points
+    Function missing: -10 points
+    
+3. Simulate implemented as 1 function
+    Function implemented partially: -2 point
+    Functions missing: -4 points
+    
+2. Menu branch call 1 function each (or two for test):
+    Menu calls functions, but important code is still in main: -1 point
+    Menu call functions but most of the work is still done in main: -1 points
+    Menu doesn't call student-written functions: -2 points
+
+4. Function Comments:
+    Function comments are paired with definitions, not prototype: -1 point
+    Some functions missing comments: -1 point
+    No function comments: -2 points 
+    
+######## Custom Data Type ######
+
+1. Ship struct has correct members
+    One or two missing data members: -2 points
+    More than two missing data members: -5 points
+    Struct is missing: -10 points
+    
+2. Design a New Ship writes user input into a Ship
+    Some non-Ship variables are used: -2 points
+    Function creates but does not use a Ship: -3 points
+    Function does not use a Ship: -5 points
+    
+2. Test a Ship Ship writes user input into a Ship
+    Some non-Ship variables are used: -2 points
+    Function creates but does not use a Ship: -3 points
+    A Ship is not passed between the two functions somehow: -3 points
+    Function does not use a Ship: -5 points
+
+######## Test Cases ######
+
+So this is where you're going to build and run their programs. If the code doesn't
+compile you can fix one or two small issues for them. If the code won't compile and
+there's no easy fix, email me the students name.
+
+1. Test Case 1, 2, and 3
+    The first 3 test cases take console input, and then write a file. The correct
+    file name is the top of the "Test Condition" Column. The student's program
+    should produce a file with the same contents.
+    
+    File name is wrong: -1 point per case
+    Floats don't show 1 decimal: -1 point per case
+    Other formatting issues: -1 point per case
+    Program doesn't return to menu after running: -2 points per case
+    Program takes input in the wrong order: -2 point per case
+    Incorrect values being computed: -3 points per case
+
+2. Test Case 4, 5, 6
+    The next 3 test cases read the files produced by test cases 1, 2, and 3. The
+    program should then test the values in the file with some simple branching. The
+    students should all do very well here, because this was part of Project 2.
+    
+    Failing more than one test: -2 point per case
+    Program doesn't return to menu after running: -2 points per case
+    Failing the wrong test: -2 points per case
+    No ouput or file not found: -3 points per case
+    Program crashes, seg faults, or other major failure: -5 points per case
+
+4. Test Case 7
+    This option "simulates" a flight. The first number is acceleration and the
+    second number is how many seconds to simulate the flight for. Case 8 should
+    only print one line on the console. Case 9 should print 41 lines on the console.
+    I gave them some leeway in how they align the columns so they can be right or
+    left justified, but should be "neat".
+    
+    Numbers are not formatted to one decimal: -1 point
+    Wrong units for output: -1 point
+    Sloppy columns: -2 points
+    Program doesn't return to menu after running: -2 points
+    Incorret values: -3 points (not per line)
+    Wrong number of lines printed: -3 points per case
+    No output: -5 points per case
+
+5. Test Case 8
+    The program should print the little "Thank You" message and then quit.
+    Missing "Thank you" message: -2 points
+    Nothing happens with 'q' as you input: -5 points
+
+

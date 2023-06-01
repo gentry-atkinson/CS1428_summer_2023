@@ -1,0 +1,82 @@
+You're going to fill out a rubric for every student.
+Start by looking at their code file. You should be able to copy
+and paste their name into their rubric.
+
+####### Style Guide ########
+
+1. Lines less than 80 characters:
+    1 or 2 lines over: -1 point
+    3 to 5 lines over: -2 points
+    5 to 10 lines over: -3 points
+    11+ lines over: -4 points
+
+2. Variables have meaningfule names:
+    Pretty much everyone gets full points for this.
+
+3. Every block indented:
+    1 or 2 lines not indented: full credit
+    Some indenting but it's not consistent: -2 points
+    Nothing indented: -3 points
+
+4. Comments for complicated actions:
+    More than 3 comments in their code: full credit
+    1 or 2 comments: -1 point
+    No comments after authorship comment: -2 points
+
+5. File name is [Authors Last Name]_assignment1.cpp:
+    Extra numbers in the name: -1 point
+    Name is different but still has author's name in it: -2 points
+    Name is completely different: -4 points    
+
+6. Name and Date Comment:
+    Name not included: -1 point
+    Data not included: -1 point
+
+
+
+######## Test Cases ######
+
+So this is where you're going to build and run their programs. If the code doesn't
+compile you can fix one or two small issues for them. If the code won't compile and
+there's no easy fix, email me the students name.
+
+1. Test Case 1
+    Picking an option that's not on the menu should cause the program to print an error
+    message
+    Program goes back to menu without printing an error: -2 points
+    Program executes on of the menu items: -3 points
+    Program crashes: -5 points
+
+2. Test Case 2, 3, and 4
+    The first 3 test cases take console input, and then write a file. The correct
+    file name is the top of the "Test Condition" Column. The student's program
+    should produce a file with the same contents.
+    Program doesn't return to menu after running: -2 points per case
+    Program takes input in the wrong order: -2 point per case
+    File name is wrong: -2 point per case
+    Floats don't show 1 decimal: -1 point per case
+    Other formatting issues: -1 point per case
+
+3. Test Case 5
+    Testing a file that hasn't been written should cause the program to print an error
+    message
+    Program goes back to menu without printing an error: -1 points
+    Program reads a different file: -2 points
+    Program crashes: -5 points
+
+4. Test Case 6, 7, 8
+    The next 3 test cases read the files produced by test cases 2, 3, and 4. The
+    program should then test the values in the file with some simple branching. The
+    students should all do very well here, because this was part of Project 2.
+    Failing more than one test: -2 point per case
+    Program doesn't return to menu after running: -1 points per case
+    Failing the wrong test: -2 points per case
+    No ouput or file not found: -6 points per case
+    Program crashes, seg faults, or other major failure: -10 points per case
+
+5. Test Case 9
+    The program should print the little "Thank You" message and then quit.
+    Missing "Thank you" message: -2 points
+    Nothing happens with 'q' as you input: -5 points
+
+

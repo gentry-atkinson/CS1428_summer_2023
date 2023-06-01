@@ -1,0 +1,71 @@
+You're going to fill out a rubric for every student.
+Start by looking at their code file. You should be able to copy
+and paste their name into their rubric.
+
+####### Style Guide ########
+
+1. Lines less than 80 characters:
+    1 or 2 lines over: -1 point
+    3 to 5 lines over: -2 points
+    5 to 10 lines over: -3 points
+    11+ lines over: -4 points
+
+2. Variables have meaningfule names:
+    Pretty much everyone gets full points for this.
+
+3. Every block indented:
+    1 or 2 lines not indented: full credit
+    Some indenting but it's not consistent: -2 points
+    Nothing indented: -3 points
+
+4. Comments for complicated actions:
+    More than 3 comments in their code: full credit
+    1 or 2 comments: -1 point
+    No comments after authorship comment: -2 points
+
+5. File name is [Authors Last Name]_assignment1.cpp:
+    Extra numbers in the name: -1 point
+    Name is different but still has author's name in it: -2 points
+    Name is completely different: -4 points    
+
+6. Name and Date Comment:
+    Name not included: -1 point
+    Data not included: -1 point
+    Collaborators not included:-1 point (but no more than -2 overall)
+
+######## Test Cases ######
+
+So this is where you're going to build and run their programs. If the code doesn't
+compile you can fix one or two small issues for them. If the code won't compile and
+there's no easy fix, email me the students name and I'll grade it as best I can.
+
+This iteration of the project doesn't loop yet, so you'll have to run the program again for each test case.
+
+1. Test Case 1
+    Enter the inputs on the left. Their program should print "File written for
+    Zoomer1" on the console. 
+    Wrong message: -2 to -5 points
+    Wrong file name: -5 points
+    Prints nothing or crashes: -5 to -10 points depending on how "close" their code is
+
+2. Test Case 2
+    Console input should cause a file named "Boko.txt" to be written.
+    Wrong file name: -5 points
+    Printing file contents to console instead of file: -5 points
+    Prints nothing or crashes: -5 to -10 points depending on how "close" their code is
+
+3. Test Case 3
+    Console input should produce the listed numbers.
+    Incorrect values: -2 points apiece (if their more than +- 0.1 off)
+    Wrong or missing units: -1 point apiece
+    Sloppy columns: -5 points
+
+4. Test Case 4
+    Console input should produce the listed text.
+    Header label missing: -5 points
+    Header label has wrong name: -3 points
+    Time stamp missing: -5 points
+    Time stamp hard coded rather than calling time(NULL): -5 points
+
+
+
